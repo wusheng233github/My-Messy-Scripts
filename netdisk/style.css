@@ -1,0 +1,51 @@
+.topbar {
+background-color: #253C78;
+padding-top: 0.5px;
+padding-bottom: 0.5px;
+padding-left: 50px;
+box-shadow: 5px 5px 4px #828282,-5px -5px 4px #ffffff;
+}
+.topbar > p {
+color: white;
+}
+.topbar > p:hover {
+background: linear-gradient(to right, red, pink, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation:  hue 1s linear infinite;
+}
+@keyframes hue {
+0% {filter: hue-rotate(0deg);}
+100% {filter: hue-rotate(360deg);}
+}
+list {
+border-radius: 5px;
+border: 5px solid #E0E0E0;
+background-color: #FFFFFF;
+box-shadow: 2px 2px 5px grey;
+width: 360px
+padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 20px;
+}
+.title {
+font-size: 30px;
+text-align: center;
+}
+.button {
+background-color: #05348B;
+border-style: none;
+color: white;
+box-shadow: 2px 2px 5px grey;
+padding-bottom: 7px;
+padding-top: 7px;
+}
+input {
+border-radius: 25px;
+border-style: solid;
+border-color: #C4C4C4;
+box-shadow: 2px 2px 5px grey;
+}
+input:hover {
+border-color: #05348B;
+}
